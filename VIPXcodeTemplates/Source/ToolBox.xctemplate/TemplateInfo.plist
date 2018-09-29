@@ -16,9 +16,5 @@
 	<string>0</string>
 	<key>Summary</key>
 	<string>This copies all files from the ios-toolbox github repository to your project. </string>
-	<key>Nodes</key>
-	<array>
-		<string>ios-toolboc/IOSToolbox/</string>
-	</array>
 </dict>
 </plist>
