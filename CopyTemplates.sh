@@ -15,7 +15,6 @@ CONTROLLER_TYPES=(
 declare DIRS_TO_COPY
 # TODO: automatically read directory names
 DIRS_TO_COPY=(
-	"${TEMPLATES_DIR}/DependencyInjector.xctemplate"
     "${TEMPLATES_DIR}/Interactor.xctemplate"
     "${TEMPLATES_DIR}/Models.xctemplate"
     "${TEMPLATES_DIR}/Presenter.xctemplate"

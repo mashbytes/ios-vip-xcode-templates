@@ -1,0 +1,3 @@
+[submodule "VIPXcodeTemplates/Source/ToolBox.xctemplate/ios-toolbox"]
+	path = VIPXcodeTemplates/Source/ToolBox.xctemplate/ios-toolbox
+	url = git@github.com:mashbytes/ios-toolbox.git
