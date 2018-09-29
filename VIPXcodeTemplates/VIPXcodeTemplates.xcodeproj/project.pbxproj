@@ -46,12 +46,14 @@
 		60B860E5215F74DF001F0F4B /* CopyTemplates.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = CopyTemplates.sh; path = ../CopyTemplates.sh; sourceTree = "<group>"; };
 		60B86112215F7850001F0F4B /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		60B8614D215F839F001F0F4B /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../Makefile; sourceTree = "<group>"; };
+		60B86151215F8CD0001F0F4B /* Install.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; name = Install.rb; path = ../Install.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		609AD40020B4111C005B3271 = {
 			isa = PBXGroup;
 			children = (
+				60B86151215F8CD0001F0F4B /* Install.rb */,
 				60B8614D215F839F001F0F4B /* Makefile */,
 				60B860E5215F74DF001F0F4B /* CopyTemplates.sh */,
 				60B8608E215F74A1001F0F4B /* Source */,

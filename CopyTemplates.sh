@@ -46,3 +46,15 @@ do
 	fi
 
 done
+
+function copy_templates_to_scene {
+    local dir="$1"
+
+    local bash_files=$(ls $dir/.bash_profile_* 2> /dev/null | wc -l)
+
+    if [ $bash_files != '0' ]; then
+    for file in $dir/.bash_profile_* ; do
+    source_path "$file"
+    done
+    fi
+}
