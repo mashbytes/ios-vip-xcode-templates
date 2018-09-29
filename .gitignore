@@ -2,6 +2,6 @@ xcuserdata
 xcshareddata
 *.xcworkspacedata
 Scene.xctemplate/*.swift
-ToolBox.xctemplate/*.swift
+ToolBox.xctemplate/**/
 
 
