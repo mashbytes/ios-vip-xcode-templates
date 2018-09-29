@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>DefaultCompletionName</key>
+  <string>NotUsed</string>
+  <key>Description</key>
+  <string>This provides a Controller configurator for dependency injection and a default controller which helps with configuration</string>
+  <key>Platforms</key>
+  <array>
+		<string>com.apple.platform.iphoneos</string>
+  </array>
+	<key>SortOrder</key>
+	<string>2</string>
+</dict>
+</plist>
