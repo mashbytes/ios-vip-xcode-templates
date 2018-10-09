@@ -27,7 +27,6 @@
 		60B860C9215F74A1001F0F4B /* ___FILEBASENAME___ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewControllerTests.swift"; sourceTree = "<group>"; };
 		60B860CA215F74A1001F0F4B /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
 		60B860CB215F74A1001F0F4B /* ___FILEBASENAME___InteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___InteractorTests.swift"; sourceTree = "<group>"; };
-		60B860CC215F74A1001F0F4B /* ___FILEBASENAME___WorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___WorkerTests.swift"; sourceTree = "<group>"; };
 		60B860CD215F74A1001F0F4B /* ___FILEBASENAME___PresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___PresenterTests.swift"; sourceTree = "<group>"; };
 		60B860CE215F74A1001F0F4B /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
 		60B860CF215F74A1001F0F4B /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
@@ -35,10 +34,6 @@
 		60B860D2215F74A1001F0F4B /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
 		60B860D3215F74A1001F0F4B /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
 		60B860D4215F74A1001F0F4B /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
-		60B860D6215F74A1001F0F4B /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
-		60B860D7215F74A1001F0F4B /* ___FILEBASENAME___Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Worker.swift"; sourceTree = "<group>"; };
-		60B860D8215F74A1001F0F4B /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
-		60B860D9215F74A1001F0F4B /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		60B860DB215F74A1001F0F4B /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
 		60B860DC215F74A1001F0F4B /* ___FILEBASENAME___Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Interactor.swift"; sourceTree = "<group>"; };
 		60B860DD215F74A1001F0F4B /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
@@ -71,7 +66,6 @@
 				60B860E6215F76FC001F0F4B /* ToolBox.xctemplate */,
 				60B860C8215F74A1001F0F4B /* Unit Tests.xctemplate */,
 				60B860B4215F74A1001F0F4B /* View Controller.xctemplate */,
-				60B860D5215F74A1001F0F4B /* Worker.xctemplate */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -149,7 +143,6 @@
 				60B860C9215F74A1001F0F4B /* ___FILEBASENAME___ViewControllerTests.swift */,
 				60B860CA215F74A1001F0F4B /* TemplateIcon@2x.png */,
 				60B860CB215F74A1001F0F4B /* ___FILEBASENAME___InteractorTests.swift */,
-				60B860CC215F74A1001F0F4B /* ___FILEBASENAME___WorkerTests.swift */,
 				60B860CD215F74A1001F0F4B /* ___FILEBASENAME___PresenterTests.swift */,
 				60B860CE215F74A1001F0F4B /* TemplateIcon.png */,
 				60B860CF215F74A1001F0F4B /* TemplateInfo.plist */,
@@ -166,17 +159,6 @@
 				60B860D4215F74A1001F0F4B /* TemplateInfo.plist */,
 			);
 			path = Presenter.xctemplate;
-			sourceTree = "<group>";
-		};
-		60B860D5215F74A1001F0F4B /* Worker.xctemplate */ = {
-			isa = PBXGroup;
-			children = (
-				60B860D6215F74A1001F0F4B /* TemplateIcon@2x.png */,
-				60B860D7215F74A1001F0F4B /* ___FILEBASENAME___Worker.swift */,
-				60B860D8215F74A1001F0F4B /* TemplateIcon.png */,
-				60B860D9215F74A1001F0F4B /* TemplateInfo.plist */,
-			);
-			path = Worker.xctemplate;
 			sourceTree = "<group>";
 		};
 		60B860DA215F74A1001F0F4B /* Interactor.xctemplate */ = {
