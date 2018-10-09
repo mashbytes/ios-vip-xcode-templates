@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		60AC3B78216B5363003E2794 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
-		60AC3B7A216BDB00003E2794 /* template_info.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = template_info.rb; sourceTree = "<group>"; };
-		60AC3B7B216BDB00003E2794 /* template_info_option.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = template_info_option.rb; sourceTree = "<group>"; };
-		60AC3B7C216BDB00003E2794 /* source_file_scanner.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = source_file_scanner.rb; sourceTree = "<group>"; };
 		60AC3B7E216C9CC6003E2794 /* ___FILEBASENAME___Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Configurator.swift"; sourceTree = "<group>"; };
 		60AC3B7F216C9CC6003E2794 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		60AC3B80216C9CC6003E2794 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
 		60AC3B81216C9CC6003E2794 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
-		60AC3B84216C9E3A003E2794 /* install.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = install.rb; sourceTree = "<group>"; };
+		60AC3B86216CAD40003E2794 /* template_info.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = template_info.rb; sourceTree = "<group>"; };
+		60AC3B87216CAD40003E2794 /* install.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = install.rb; sourceTree = "<group>"; };
+		60AC3B88216CAD40003E2794 /* vip_options.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = vip_options.rb; sourceTree = "<group>"; };
+		60AC3B89216CAD40003E2794 /* template_info_option.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = template_info_option.rb; sourceTree = "<group>"; };
 		60B86091215F74A1001F0F4B /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
 		60B860AD215F74A1001F0F4B /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
 		60B860AE215F74A1001F0F4B /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
@@ -47,33 +46,16 @@
 		60B860DC215F74A1001F0F4B /* ___FILEBASENAME___Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Interactor.swift"; sourceTree = "<group>"; };
 		60B860DD215F74A1001F0F4B /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
 		60B860DE215F74A1001F0F4B /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
-		60B860E5215F74DF001F0F4B /* CopyTemplates.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = CopyTemplates.sh; path = ../CopyTemplates.sh; sourceTree = "<group>"; };
 		60B86112215F7850001F0F4B /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
-		60B8614D215F839F001F0F4B /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		609AD40020B4111C005B3271 = {
 			isa = PBXGroup;
 			children = (
-				60AC3B76216B5363003E2794 /* Build */,
-				60B8614D215F839F001F0F4B /* Makefile */,
-				60B860E5215F74DF001F0F4B /* CopyTemplates.sh */,
+				60AC3B85216CAD40003E2794 /* Scripts */,
 				60B8608E215F74A1001F0F4B /* Source */,
 			);
-			sourceTree = "<group>";
-		};
-		60AC3B76216B5363003E2794 /* Build */ = {
-			isa = PBXGroup;
-			children = (
-				60AC3B84216C9E3A003E2794 /* install.rb */,
-				60AC3B7C216BDB00003E2794 /* source_file_scanner.rb */,
-				60AC3B7B216BDB00003E2794 /* template_info_option.rb */,
-				60AC3B7A216BDB00003E2794 /* template_info.rb */,
-				60AC3B78216B5363003E2794 /* Gemfile */,
-			);
-			name = Build;
-			path = ../Build;
 			sourceTree = "<group>";
 		};
 		60AC3B7D216C9C87003E2794 /* Configurator.xctemplate */ = {
@@ -108,6 +90,18 @@
 				60B860E6215F76FC001F0F4B /* ToolBox.xctemplate */,
 			);
 			path = Partial;
+			sourceTree = "<group>";
+		};
+		60AC3B85216CAD40003E2794 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				60AC3B86216CAD40003E2794 /* template_info.rb */,
+				60AC3B87216CAD40003E2794 /* install.rb */,
+				60AC3B88216CAD40003E2794 /* vip_options.rb */,
+				60AC3B89216CAD40003E2794 /* template_info_option.rb */,
+			);
+			name = Scripts;
+			path = ../Scripts;
 			sourceTree = "<group>";
 		};
 		60B8608E215F74A1001F0F4B /* Source */ = {
