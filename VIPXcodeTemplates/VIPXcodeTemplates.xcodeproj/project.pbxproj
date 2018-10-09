@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		60AC3B77216B5363003E2794 /* Install.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = Install.rb; sourceTree = "<group>"; };
+		60AC3B78216B5363003E2794 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		60AC3B7A216BDB00003E2794 /* template_info.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = template_info.rb; sourceTree = "<group>"; };
+		60AC3B7B216BDB00003E2794 /* template_info_option.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = template_info_option.rb; sourceTree = "<group>"; };
+		60AC3B7C216BDB00003E2794 /* source_file_scanner.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = source_file_scanner.rb; sourceTree = "<group>"; };
+		60AC3B7E216C9CC6003E2794 /* ___FILEBASENAME___Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Configurator.swift"; sourceTree = "<group>"; };
+		60AC3B7F216C9CC6003E2794 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		60AC3B80216C9CC6003E2794 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
+		60AC3B81216C9CC6003E2794 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
 		60B86091215F74A1001F0F4B /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
 		60B860AD215F74A1001F0F4B /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
 		60B860AE215F74A1001F0F4B /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
@@ -41,23 +50,47 @@
 		60B860E5215F74DF001F0F4B /* CopyTemplates.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = CopyTemplates.sh; path = ../CopyTemplates.sh; sourceTree = "<group>"; };
 		60B86112215F7850001F0F4B /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		60B8614D215F839F001F0F4B /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../Makefile; sourceTree = "<group>"; };
-		60B86151215F8CD0001F0F4B /* Install.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; name = Install.rb; path = ../Install.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		609AD40020B4111C005B3271 = {
 			isa = PBXGroup;
 			children = (
-				60B86151215F8CD0001F0F4B /* Install.rb */,
+				60AC3B76216B5363003E2794 /* Build */,
 				60B8614D215F839F001F0F4B /* Makefile */,
 				60B860E5215F74DF001F0F4B /* CopyTemplates.sh */,
 				60B8608E215F74A1001F0F4B /* Source */,
 			);
 			sourceTree = "<group>";
 		};
+		60AC3B76216B5363003E2794 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				60AC3B7C216BDB00003E2794 /* source_file_scanner.rb */,
+				60AC3B7B216BDB00003E2794 /* template_info_option.rb */,
+				60AC3B7A216BDB00003E2794 /* template_info.rb */,
+				60AC3B77216B5363003E2794 /* Install.rb */,
+				60AC3B78216B5363003E2794 /* Gemfile */,
+			);
+			name = Build;
+			path = ../Build;
+			sourceTree = "<group>";
+		};
+		60AC3B7D216C9C87003E2794 /* Configurator.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				60AC3B7E216C9CC6003E2794 /* ___FILEBASENAME___Configurator.swift */,
+				60AC3B81216C9CC6003E2794 /* TemplateIcon.png */,
+				60AC3B80216C9CC6003E2794 /* TemplateIcon@2x.png */,
+				60AC3B7F216C9CC6003E2794 /* TemplateInfo.plist */,
+			);
+			path = Configurator.xctemplate;
+			sourceTree = "<group>";
+		};
 		60B8608E215F74A1001F0F4B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				60AC3B7D216C9C87003E2794 /* Configurator.xctemplate */,
 				60B860DA215F74A1001F0F4B /* Interactor.xctemplate */,
 				60B860C3215F74A1001F0F4B /* Models.xctemplate */,
 				60B860D0215F74A1001F0F4B /* Presenter.xctemplate */,
