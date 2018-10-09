@@ -12,7 +12,7 @@ class ___VARIABLE_sceneName___Presenter {
 extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresentationLogic {
     
     func presentSomething(response: ___VARIABLE_sceneName___.Something.Response) {
-        let viewModel = ___VARIABLE_sceneName___.Something.ViewModel()
+        let viewModel = ___VARIABLE_sceneName___.Something.ViewModel(identifier: response.identifier)
         display?.displaySomething(viewModel: viewModel)
     }
 

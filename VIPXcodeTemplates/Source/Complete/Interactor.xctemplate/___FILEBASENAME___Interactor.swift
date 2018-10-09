@@ -17,7 +17,7 @@ extension ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___BusinessLo
     
     func doSomething(request: ___VARIABLE_sceneName___.Something.Request) {
         
-        let response = ___VARIABLE_sceneName___.Something.Response()
+        let response = ___VARIABLE_sceneName___.Something.Response(identifier: ___VARIABLE_sceneName___.Something.DataPassing())
         presenter?.presentSomething(response: response)
     }
 

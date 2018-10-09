@@ -41,9 +41,8 @@ templates_partial_dir = "#{source_dir}/Partial"
 puts "Building Scene Template"
 scene_template_name = "Scene.xctemplate"
 scene_source_dir = "#{templates_partial_dir}/#{scene_template_name}"
-scene_target_dir = "#{build_dir}/#{scene_template_name}/UIViewController"
+scene_target_dir = "#{build_dir}/#{scene_template_name}"
 FileUtils.cp_r(scene_source_dir, build_dir)
-FileUtils.makedirs(scene_target_dir)
 
 complete_templates.each { |p|
   Dir.children(p).each { |f|

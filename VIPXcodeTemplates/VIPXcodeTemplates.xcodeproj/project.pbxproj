@@ -19,8 +19,6 @@
 		60B860AD215F74A1001F0F4B /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
 		60B860AE215F74A1001F0F4B /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		60B860B5215F74A1001F0F4B /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
-		60B860B7215F74A1001F0F4B /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
-		60B860B9215F74A1001F0F4B /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
 		60B860BB215F74A1001F0F4B /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
 		60B860BC215F74A1001F0F4B /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
 		60B860BD215F74A1001F0F4B /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
@@ -126,38 +124,12 @@
 		60B860B4215F74A1001F0F4B /* View Controller.xctemplate */ = {
 			isa = PBXGroup;
 			children = (
+				60B860BB215F74A1001F0F4B /* ___FILEBASENAME___ViewController.swift */,
 				60B860B5215F74A1001F0F4B /* TemplateIcon@2x.png */,
-				60B860B6215F74A1001F0F4B /* UITableViewController */,
-				60B860B8215F74A1001F0F4B /* UICollectionViewController */,
-				60B860BA215F74A1001F0F4B /* UIViewController */,
 				60B860BC215F74A1001F0F4B /* TemplateIcon.png */,
 				60B860BD215F74A1001F0F4B /* TemplateInfo.plist */,
 			);
 			path = "View Controller.xctemplate";
-			sourceTree = "<group>";
-		};
-		60B860B6215F74A1001F0F4B /* UITableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				60B860B7215F74A1001F0F4B /* ___FILEBASENAME___ViewController.swift */,
-			);
-			path = UITableViewController;
-			sourceTree = "<group>";
-		};
-		60B860B8215F74A1001F0F4B /* UICollectionViewController */ = {
-			isa = PBXGroup;
-			children = (
-				60B860B9215F74A1001F0F4B /* ___FILEBASENAME___ViewController.swift */,
-			);
-			path = UICollectionViewController;
-			sourceTree = "<group>";
-		};
-		60B860BA215F74A1001F0F4B /* UIViewController */ = {
-			isa = PBXGroup;
-			children = (
-				60B860BB215F74A1001F0F4B /* ___FILEBASENAME___ViewController.swift */,
-			);
-			path = UIViewController;
 			sourceTree = "<group>";
 		};
 		60B860BE215F74A1001F0F4B /* Router.xctemplate */ = {

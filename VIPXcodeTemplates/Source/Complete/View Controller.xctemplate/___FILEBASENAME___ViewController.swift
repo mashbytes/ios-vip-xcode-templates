@@ -14,14 +14,7 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
         interactor?.doSomething(request: request)
     }
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        super.prepare(for: segue, sender: sender)
-        doDataPassing(for: segue, sender: sender)
-    }
-
 }
-
-extension ___VARIABLE_sceneName___ViewController: AutoDataPassing {}
 
 extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___DisplayLogic {
     
