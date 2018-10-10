@@ -63,7 +63,7 @@ Find.find(toolbox_source_dir) do |p|
   FileUtils.cp(p, toolbox_target_dir)
 end
 
-target_dir = File.expand_path("~/Library/Developer/Xcode/Templates/File Templates/Clean Swift1")
+target_dir = File.expand_path("~/Library/Developer/Xcode/Templates/File Templates/Clean Swift")
 puts "Cleaning Xcode Templates Directory: #{target_dir}"
 clean_directory(target_dir)
 Dir.children(build_dir).each { |p|
